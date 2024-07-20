@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100vw;
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: antiquewhite;
+    color: #333;
+    animation: nav 0.5s ease-out;
+}
+
+@keyframes nav {
+    from {
+        background-color: #333;
+        color: antiquewhite;
+    }
+
+    to {
+        background-color: antiquewhite;
+        color: #333;
+    }
+
+}
+
+h1 {
+    width: 60vw;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid rgb(7, 7, 7);
+    box-shadow: 5px 5px rgb(7, 7, 7);
+
+}
+
+#a {
+    width: 60vw;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    border: 2px solid rgb(26, 23, 23);
+    box-shadow: 5px 5px 0 rgb(7, 7, 7);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subtitle{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.c1 {
+    padding: 2px;
+}
+
+.c2 {
+    padding: 4px;
+    color: white;
+    background-color:black;
+    border-radius: 1px;
+}
